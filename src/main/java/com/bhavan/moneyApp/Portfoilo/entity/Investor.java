@@ -18,9 +18,9 @@ public class Investor {
 //    @OneToMany(mappedBy="investor")
 //    private List<Portfolio> portfolio;
 
-    @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    /*@OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     @JoinColumn(name = "investorID", referencedColumnName = "investorId")
-    Set<Portfolio> portfolio = new HashSet<>();
+    Set<Portfolio> portfolio = new HashSet<>();*/
 
 
     public Investor(long investorId, String investorName, String investorEmail, String investorPhone) {
